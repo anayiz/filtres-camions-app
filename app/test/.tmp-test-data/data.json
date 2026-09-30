@@ -1,0 +1,38 @@
+{
+  "products": [
+    {
+      "id": "p-demo",
+      "name": "Filtre test",
+      "cat": "filtres",
+      "desc": "Produit de test",
+      "price": 3000,
+      "stock": 2,
+      "oem": "OEM",
+      "brand": "BRAND",
+      "model": "MODEL",
+      "image": "",
+      "category": "filtres"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-59b7a36e-ffa7-460c-bf2d-a340aee6c629",
+      "orderNumber": "FTC-MULORC7E-8XQL",
+      "name": "Ahmed",
+      "phone": "213555123456",
+      "addr": "Alger",
+      "note": "Urgent",
+      "items": [
+        {
+          "id": "p-demo",
+          "name": "Filtre test",
+          "qty": 1,
+          "price": 3000
+        }
+      ],
+      "total": 3000,
+      "status": "pending",
+      "when": "2026-09-28T20:14:16.202Z"
+    }
+  ]
+}

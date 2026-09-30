@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": "p-1",
+      "name": "فلتر هواء — مان TGX",
+      "cat": "فلاتر هواء",
+      "desc": "مطابق للمواصفات الأصلية، كفاءة تنقية عالية.",
+      "price": 3800,
+      "stock": 15,
+      "oem": "MAN TGX 2019",
+      "brand": "MAN",
+      "model": "TGX",
+      "image": "https://images.unsplash.com/...",
+      "category": "هواء"
+    },
+    {
+      "id": "p-2",
+      "name": "فلتر هواء — مرسيدس أكتروس",
+      "cat": "فلاتر هواء",
+      "desc": "مقاوم للغبار، عمر استعمال طويل.",
+      "price": 4200,
+      "stock": 7,
+      "oem": "Mercedes Actros",
+      "brand": "Mercedes",
+      "model": "Actros",
+      "image": "",
+      "category": "هواء"
+    },
+    {
+      "id": "p-3",
+      "name": "فلتر هواء — رونو T-Series",
+      "cat": "فلاتر هواء",
+      "desc": "تركيب سهل، ضمان الجودة.",
+      "price": 3500,
+      "stock": 0,
+      "oem": "Renault T-Series",
+      "brand": "Renault",
+      "model": "T-Series",
+      "image": "",
+      "category": "هواء"
+    },
+    {
+      "id": "p-4",
+      "name": "فلتر هواء — فولفو FH",
+      "cat": "فلاتر هواء",
+      "desc": "يحمي المحرك من الأتربة الدقيقة.",
+      "price": 4500,
+      "stock": 10,
+      "oem": "Volvo FH",
+      "brand": "Volvo",
+      "model": "FH",
+      "image": "",
+      "category": "هواء"
+    },
+    {
+      "id": "p-5",
+      "name": "فلتر زيت مرافق",
+      "cat": "إكسسوارات",
+      "desc": "يُنصح بتغييره مع كل صيانة.",
+      "price": 1200,
+      "stock": 20,
+      "oem": "Oil Filter",
+      "brand": "Universal",
+      "model": "Heavy Duty",
+      "image": "",
+      "category": "زيت"
+    },
+    {
+      "id": "p-6",
+      "name": "فلتر وقود مرافق",
+      "cat": "إكسسوارات",
+      "desc": "يحمي حاقن الوقود من الشوائب.",
+      "price": 1600,
+      "stock": 11,
+      "oem": "Fuel Filter",
+      "brand": "Universal",
+      "model": "Premium",
+      "image": "",
+      "category": "وقود"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-b50a4b9c-c2b2-41eb-85c5-5e4afc87ab34",
+      "orderNumber": "FTC-MULOQK3H-Q5XL",
+      "name": "amine",
+      "phone": "213791465432",
+      "addr": "Blida — adresse",
+      "note": "cami",
+      "items": [
+        {
+          "id": "p-1",
+          "name": "فلتر هواء — مان TGX",
+          "qty": 1,
+          "price": 3800
+        },
+        {
+          "id": "p-2",
+          "name": "فلتر هواء — مرسيدس أكتروس",
+          "qty": 1,
+          "price": 4200
+        },
+        {
+          "id": "p-4",
+          "name": "فلتر هواء — فولفو FH",
+          "qty": 1,
+          "price": 4500
+        }
+      ],
+      "total": 12500,
+      "status": "cancelled",
+      "when": "2026-09-28T20:13:39.773Z",
+      "updatedAt": "2026-09-28T20:22:10.695Z",
+      "cancelledReason": "expired"
+    }
+  ]
+}
