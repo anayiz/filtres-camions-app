@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: filtres-camions-app
+    env: node
+    plan: free
+    region: frankfurt
+    rootDir: .
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: DATA_DIR
+        value: ./
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: WHATSAPP_NUMBER
+        value: "213555123456"
