@@ -2,8 +2,18 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const dotenv = require('dotenv');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
+
+for (const envFile of [
+  path.join(__dirname, '.env'),
+  path.join(__dirname, '.env.local')
+]) {
+  if (fs.existsSync(envFile)) {
+    dotenv.config({ path: envFile, override: false });
+  }
+}
 
 const PORT = Number(process.env.PORT || 3000);
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'changeme';
